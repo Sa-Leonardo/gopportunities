@@ -1,0 +1,1 @@
+Este projeto é uma API moderna para oportunidades de emprego, desenvolvida usando Golang. A API é alimentada por Go-Gin como roteador, GoORM para comunicação com o banco de dados, SQLite como banco de dados e Swagger para documentação e testes da API. O projeto segue uma estrutura de pacotes moderna para manter a base de código organizada e sustentável.
