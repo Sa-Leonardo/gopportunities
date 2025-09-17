@@ -9,7 +9,7 @@ import (
 
 type Opening struct {
 	gorm.Model
-	Role     string
+	Role     string							
 	Company  string
 	Location string
 	Remote   bool

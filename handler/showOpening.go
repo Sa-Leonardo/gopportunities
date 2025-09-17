@@ -1,12 +1,11 @@
 package handler
 
 import (
-	"net/http"
-
 	"github.com/gin-gonic/gin"
+	"net/http"
 )
 
-func ShowOpeningHandlerOpeningHandler(ctx *gin.Context) {
+func ShowOpeningHandler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
 		"msg" : "Show opening",
 	})

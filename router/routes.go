@@ -10,14 +10,17 @@ import (
 
 func initializeRoutes(router *gin.Engine) {
 
+	// Initialize handler
+	handler.InitializeHandler()
+
 	var v1 *gin.RouterGroup = router.Group("/api/v1")
 	
 
 	{
 		//defined routes
-		v1.GET("/opening", handler.CreateOpeningHandler)
+		v1.POST("/opening", handler.CreateOpeningHandler)
 
-		v1.POST("/opening", handler.ShowOpeningHandlerOpeningHandler)
+		v1.GET("/opening", handler.ShowOpeningHandler)
 
 		v1.DELETE("/opening", handler.DeleteOpeningHandler)
 		
