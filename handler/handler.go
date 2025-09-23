@@ -14,5 +14,4 @@ func InitializeHandler() {
 
 	logger = config.GETLogger("handler")
 	db = config.GetSQLite()
-	_ = db
 }
