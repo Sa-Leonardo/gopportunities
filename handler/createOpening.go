@@ -40,5 +40,5 @@ func CreateOpeningHandler(ctx *gin.Context) {
 		return
 	}
 	
-	sendSucess(ctx, "create-opening", opening)
+	sendSuccess(ctx, "create-opening", opening)
 }
